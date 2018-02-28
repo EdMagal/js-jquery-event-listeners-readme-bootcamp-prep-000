@@ -12,7 +12,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("#typing").on("keydown", function(){
+  $("#typing").on("keydown", function(event){
     if(event.which==71) alert("You have found my G spot.");
   });
 }
